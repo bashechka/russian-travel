@@ -1,0 +1,38 @@
+.lead__main-illustration {
+  background-size: cover;
+  max-width: 984px;
+  max-height: 615px;
+  padding: 56px 0 0 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .lead__main-illustration {
+    width: 100%;
+    max-height: 615px;
+    padding: 64px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__main-illustration {
+    max-width: 928px;
+    max-height: 580px;
+    padding: 56px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__main-illustration {
+    max-width: 768px;
+    max-height: 580px;
+    padding: 56px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__main-illustration {
+      max-width: 320px;
+      max-height: 200px;
+      padding: 40px 0 0 0;
+  }
+}
