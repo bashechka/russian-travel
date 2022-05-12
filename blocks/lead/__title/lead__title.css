@@ -1,31 +1,22 @@
 .lead__title {
+  width: 100%;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 99px;
-  /*чтобы визуально приблизить к брифу*/
+  line-height: 100px;
   margin: 0;
   text-align: center;
   color: white;
-  max-width: 720px;
-  max-height: 200px; 
+  /* max-width: 720px;
+  min-height: 200px;  */
   padding: 0 0 32px 0;
 }
 
-/* 
-@media screen and (max-width: 1280px) {
+ /* @media screen and (max-width: 1024px) {
   .lead__title {
     max-width: 720px;
-    max-height: 200px; 
-    padding: 0 0 32px 0;
-  }
-} 
-
-@media screen and (max-width: 1024px) {
-  .lead__title {
-    max-width: 720px;
-    max-height: 200px; 
+    min-height: 200px; 
     padding: 0 0 32px 0;
     }
 }
@@ -33,15 +24,27 @@
 @media screen and (max-width: 768px) {
   .lead__title { 
     max-width: 720px;
-    max-height: 200px;
+    min-height: 200px;
     padding: 0 0 32px 0; 
   }
-} */
+}  */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 691px) {
   .lead__title {
-    min-width: 228px;
-    min-height: 88px;
+    /* max-width: 288px;
+    min-height: 88px; */
+    padding: 0 0 16px 0;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+
+
+
+@media screen and (max-width: 425px) {
+  .lead__title {
+    /* max-width: 288px;
+    min-height: 88px; */
     padding: 0 0 16px 0;
     font-size: 40px;
     line-height: 44px;

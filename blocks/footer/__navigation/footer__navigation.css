@@ -4,25 +4,15 @@
   /* max-height: 18px; */
 }
 
-/* @media screen and (max-width: 1280px) {
+@media screen and (max-width: 735px) {
   .footer__navigation {
-   
-  }
+    flex-direction: column;
+    align-self: flex-start;
+    padding: 0 0 27px 0;
+ }
 }
 
-@media screen and (max-width: 1024px) {
-  .footer__navigation {
-    
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .footer__navigation {
-   
-  }
-} */
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .footer__navigation {
     flex-direction: column;
     align-self: flex-start;

@@ -9,52 +9,58 @@
   margin: 0;
   text-align: center;
   color: #FFFFFF;
-
+  top: 245px;
+  left: 312px;
+  max-width: 560px;
+  min-height: 152px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
 }
 
-@media screen and (max-width: 1279px) {
-  .cover__title {
-    top: 245px;
-    left: 312px;
-    width: 560px;
-    height: 152px;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-  }
-}
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .cover__title {
     top: 195px;
     left: 232px;
-    width: 560px;
-    height: 152px;
+    /* max-width: 560px;
+    min-height: 152px;
     font-weight: 900;
     font-size: 72px;
-    line-height: 76px;
+    line-height: 76px; */
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .cover__title {
-    max-width: 560px;
-    max-height: 152px;
     left: 104px;
     top: 115px;
+    /* max-width: 560px;
+    max-height: 152px;
     font-weight: 900;
     font-size: 72px;
-    line-height: 76px;
+    line-height: 76px; */
   }
 }
-@media screen and (max-width: 319px) {
+
+@media screen and (max-width: 625px) {
   .cover__title {
-    font-weight: 900;
     font-size: 32px;
     line-height: 35px;
     max-width: 288px;
-    max-height: 70px;
+    min-height: 70px;
     top: 33px;
     left: 16px;
   }
 }
+/* @media screen and (max-width: 425px) {
+  .cover__title {
+
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 288px;
+    min-height: 70px;
+    top: 33px;
+    left: 16px;
+  }
+} */
