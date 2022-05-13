@@ -1,31 +1,23 @@
 .lead {
+  max-width: 1280px;
   display: grid;
   justify-items: center;
   padding: 56px 148px 92px 148px;
-  max-width: 984px;
-  min-height: 1005px;
- 
 }
 
 @media screen and (max-width: 1024px) {
     .lead {
-      max-width: 928px;
-      min-height: 962px;
       padding: 48px 48px 92px 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead {
-      max-width: 768px;
-      min-height: 862px;
       padding: 48px 0 88px 0;
     }
 }
 @media screen and (max-width: 425px) {
     .lead {
-      max-width: 320px;
-      min-height: 406px;
       padding: 48px 0 64px 0;
     }
 }
@@ -33,8 +25,6 @@
 
 @media screen and (max-width: 320px) {
     .lead {
-      max-width: 320px;
-      min-height: 406px;
       padding: 48px 0 64px 0;
-    }
+   }
 }

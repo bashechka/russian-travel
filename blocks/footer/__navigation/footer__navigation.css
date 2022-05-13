@@ -1,7 +1,6 @@
 .footer__navigation {
   display: flex;
   margin: 0;
-  /* max-height: 18px; */
 }
 
 @media screen and (max-width: 735px) {

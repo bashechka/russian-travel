@@ -1,6 +1,5 @@
 .intro {
   max-width: 690px;
-  max-height: 429px;
   margin: 0;
   display: grid;
   padding: 0 0 0 148px;
@@ -8,24 +7,18 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    max-width: 690px;
-    max-height: 429px;
     padding: 0 0 0 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    max-width: 720px;
-    max-height: 429px;
     padding: 0 0 0 24px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .intro {
-    max-width: 288px;
-    max-height: 754px;
     padding: 0 0 0 16px;
   }
 }
