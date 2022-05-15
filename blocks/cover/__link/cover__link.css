@@ -8,7 +8,6 @@
   background-size: cover;
   z-index: 1;
   width: 100%;
-  /* max-width: 1184px; */
   min-height: 740px;
   text-decoration-line: none;
   object-fit: cover;
@@ -26,27 +25,24 @@
   left: 0;
 }
 
-.cover__link:hover {
+.cover__link:hover::before {
   opacity: .8;
 }
 
 @media screen and (max-width: 1024px) {
   .cover__link {
-    /* max-width: 1024px; */
     min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__link {
-    /* max-width: 768px; */
     min-height: 480px;
   }
 }
 
 @media screen and (max-width: 625px) {
   .cover__link {
-    /* max-width: 320px; */
     min-height: 200px;
   } 
 }  

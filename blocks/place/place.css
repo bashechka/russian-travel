@@ -1,21 +1,21 @@
 .place {
-  width: 100%;
+  max-width: 984px;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(2, minmax(340px, 460px));
+  grid-template-columns: 460px 1fr;
   gap: 48px 40px;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
-    width: 100%;
+    grid-template-columns: 440px 1fr;
     gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    width: 100%;
+    grid-template-columns: 340px 1fr;
     gap: 48px 28px;
   }
 }
