@@ -6,25 +6,18 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .lead {
-      padding: 48px 48px 92px 48px;
-    }
+  .lead {
+    padding: 48px 48px 92px 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .lead {
-      padding: 48px 0 88px 0;
-    }
+  .lead {
+    padding: 48px 0 88px 0;
+  }
 }
 @media screen and (max-width: 425px) {
-    .lead {
-      padding: 48px 0 64px 0;
-    }
-}
-
-
-@media screen and (max-width: 320px) {
-    .lead {
-      padding: 48px 0 64px 0;
-   }
+  .lead {
+     padding: 48px 0 64px 0;
+  }
 }
